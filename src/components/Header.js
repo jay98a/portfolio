@@ -20,8 +20,8 @@ const Header = () => {
       </div>
       <nav>
         <ul>
-          <li><a href="/Resume">Resume</a></li>
-          <li><a href="/Projects">Projects</a></li>
+          <li><a className='add_pipe' href="/Resume">Resume</a></li>
+          <li><a className='add_pipe' href="/Projects">Projects</a></li>
           <li><a href="/Contact">Contact</a></li>
         </ul>
       </nav>

@@ -1,20 +1,55 @@
-// src/components/Contact.js
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import './Contact.css';
+
+const user_details = { 
+  phone_number: '123-456-7890',
+  email: 'jay98a@gmail.com'
+}
+
 
 const Contact = () => {
   return (
     <section id="contact" className="contact">
-      <h2>Contact</h2>
-      <p>Looking forward to hearing from you</p>
-      <form>
-        <input type="text" name="firstName" placeholder="First Name" />
-        <input type="text" name="lastName" placeholder="Last Name" />
-        <input type="email" name="email" placeholder="Email" />
-        <input type="text" name="subject" placeholder="Subject" />
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit">Submit</button>
-      </form>
+      <Container>
+        <Row>
+          <Col md={6} className="contact-details">
+            <h2>Contact</h2>
+            <p>Looking forward to hearing from you</p>
+            <h4>Phone</h4>
+            <p>{user_details.phone_number}</p>
+            <h4>Email</h4>
+            <p>{user_details.email}</p>
+          </Col>
+          <Col md={6} className="contact-form">
+            <form>
+              <Row>
+                <Col sm={6}>
+                  <label className='label_formate'>First Name</label>
+                  <input type="text" name="firstName" className="form-control" />
+                  
+                  <label className='label_formate'>Email</label>
+                  <input type="email" name="email" className="form-control" />
+                </Col>
+                <Col sm={6}>
+                  <label className='label_formate'>Last Name</label>
+                  <input type="text" name="lastName" className="form-control" />
+                  
+                  <label className='label_formate'>Subject</label>
+                  <input type="text" name="subject" className="form-control" />
+                </Col>
+                <Col sm={8}>
+                  <label className='label_formate'>Message</label>
+                  <textarea name="message" className='form-control'></textarea>
+                </Col>
+                <Col sm={4}>
+                  <button type="submit">Submit</button>
+                </Col>
+              </Row>
+            </form>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 };

@@ -58,6 +58,10 @@
     margin-right: 20px;
   }
 
+  .resume_btn:hover {
+    background-color: transparent;
+  }
+
   .projects_btn {
     padding: 35px 15px;
     border: 1px solid black;
@@ -70,6 +74,10 @@
     margin-right: 20px;
   }
 
+  .projects_btn:hover {
+    background-color: transparent;
+  }
+
   .contact_btn {
     padding: 35px 15px;
     border: 1px solid black;
@@ -79,6 +87,10 @@
     cursor: pointer;
     transition: background-color 0.3s;
     font-weight: bold;
+  }
+
+  .contact_btn:hover {
+    background-color: transparent;
   }
 
   
