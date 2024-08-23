@@ -1,0 +1,49 @@
+/* src/components/Resume.css */
+.resume {
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .resume h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .work-experience {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .work-experience h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .work-experience ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .work-experience ul li {
+    margin-bottom: 30px;
+  }
+  
+  .work-experience ul li span {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .work-experience ul li h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .work-experience ul li p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

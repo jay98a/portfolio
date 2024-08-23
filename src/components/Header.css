@@ -10,6 +10,8 @@
   .header_name {
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
   }
   
   .dot {
@@ -48,5 +50,8 @@
     color: black;
   }
 
-
+  .header_name_link {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+}
   

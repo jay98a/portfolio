@@ -1,6 +1,8 @@
 // src/components/Header.js
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
+
 
 const user_details = {
   name: 'Jay Shah',
@@ -11,13 +13,16 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header_name">
-        <span className="dot"></span> {user_details.name} <span className="role">({user_details.role})</span>
+        <Link to="/" className="header_name_link">
+          <span className="dot"></span> {user_details.name} 
+          <span className="role">  ({user_details.role})</span>
+        </Link>
       </div>
       <nav>
         <ul>
-          <li><a href="#home">Resume</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/Resume">Resume</a></li>
+          <li><a href="/Projects">Projects</a></li>
+          <li><a href="/Contact">Contact</a></li>
         </ul>
       </nav>
     </header>

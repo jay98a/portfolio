@@ -22,6 +22,7 @@
     background-position: center;
     border-radius: 100%;
     margin-right: 40px;
+    border: 1px solid black;
   }
   
   .intro-text {
@@ -34,12 +35,14 @@
   }
   
   .intro-text p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.6;
     margin-bottom: 20px;
+    max-width: 512px;
   }
 
   .bold_text {
+    font-size: 24px;
     font-weight: bold;
   }
   
