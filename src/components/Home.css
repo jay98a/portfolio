@@ -1,0 +1,82 @@
+/* src/components/Home.css */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;  
+    background-color: #f4f4f4;
+  }
+  
+  .intro {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .photo {
+    flex: 1;
+    background-image: url('/public/images/img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin-right: 40px;
+  }
+  
+  .intro-text {
+    flex: 2;
+  }
+  
+  .intro-text h1 {
+    font-size: 72px;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .bold_text {
+    font-weight: bold;
+  }
+  
+  .resume_btn {
+    padding: 35px 15px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .projects_btn {
+    padding: 35px 15px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .contact_btn {
+    padding: 35px 15px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+
+  
+  
