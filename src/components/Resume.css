@@ -11,39 +11,54 @@
     margin-bottom: 40px;
   }
   
-  .work-experience {
-    max-width: 800px;
+  .work-experience, .education {
+    max-width: 1000px;
     margin: 0 auto;
   }
   
-  .work-experience h3 {
+  .work-experience h3, .education {
     font-size: 28px;
     margin-bottom: 20px;
   }
   
-  .work-experience ul {
+  .work-experience ul, .education ul {
     list-style: none;
     padding: 0;
   }
   
-  .work-experience ul li {
-    margin-bottom: 30px;
+  .work-experience ul li, .education ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
   }
   
-  .work-experience ul li span {
+  .work-experience ul li span, .education ul li span {
     display: block;
     font-size: 14px;
     color: #888;
     margin-bottom: 5px;
   }
   
-  .work-experience ul li h4 {
+  .work-experience ul li h4, .education ul li h4 {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  .work-experience ul li p {
+  .work-experience ul li p, .education ul li p {
     font-size: 16px;
     line-height: 1.6;
   }
+
+  .italic_sub_line{
+    font-style: italic;
+    font-size: 14px;
+    color: #888;
+  }
   
+  .bullet_point {
+    margin-left: 20px;
+    text-indent: -20px;
+    list-style-type: disc; 
+    padding-left: 20px;
+  }
+
+ 

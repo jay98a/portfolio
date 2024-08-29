@@ -6,6 +6,7 @@
     min-height: 100vh;
     width: 100%;  
     background-color: #f4f4f4;
+    padding-bottom: 150px;
   }
   
   .intro {
@@ -32,6 +33,7 @@
   .intro-text h1 {
     font-size: 72px;
     margin-bottom: 10px;
+    font-weight: bolder;
   }
   
   .intro-text p {
@@ -47,7 +49,7 @@
   }
   
   .resume_btn {
-    padding: 35px 15px;
+    padding: 45px 20px;
     border: 1px solid black;
     border-radius: 100%;
     background-color: orange;
@@ -56,6 +58,7 @@
     transition: background-color 0.3s;
     font-weight: bold;
     margin-right: 20px;
+    font-size: 20px;
   }
 
   .resume_btn:hover {
@@ -63,7 +66,7 @@
   }
 
   .projects_btn {
-    padding: 35px 15px;
+    padding: 45px 20px;
     border: 1px solid black;
     border-radius: 100%;
     background-color: red;
@@ -72,6 +75,7 @@
     transition: background-color 0.3s;
     font-weight: bold;
     margin-right: 20px;
+    font-size: 20px;
   }
 
   .projects_btn:hover {
@@ -79,7 +83,7 @@
   }
 
   .contact_btn {
-    padding: 35px 15px;
+    padding: 45px 20px;
     border: 1px solid black;
     border-radius: 100%;
     background-color: cyan;
@@ -87,6 +91,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
     font-weight: bold;
+    font-size: 20px;
   }
 
   .contact_btn:hover {
