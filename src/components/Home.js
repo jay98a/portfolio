@@ -13,7 +13,9 @@ const Home = () => {
           <h1>Hello</h1>
           <p className='bold_text'>A Bit About Me</p>
           <p>
-            I'm a paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.
+          I'm Jay Shah, a Software Engineer with 3+ years of experience in building scalable software solutions. 
+          I specialize in Python, Django, and Apache Kafka, and have led the development of AI-driven tools and microservice architectures. 
+          My focus is on optimizing backend systems and creating robust data pipelines to deliver seamless user experiences.
           </p>
             <button className='resume_btn' onClick={() => navigate('/resume')}>Resume</button>
             <button className='projects_btn' onClick={() => navigate('/projects')}>Projects</button>

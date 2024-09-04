@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './Contact.css';
 
 const user_details = { 
-  phone_number: '123-456-7890',
+  phone_number: '+1 647-822-4489',
   email: 'jay98a@gmail.com'
 }
 

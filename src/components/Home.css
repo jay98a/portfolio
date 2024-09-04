@@ -1,6 +1,7 @@
 /* src/components/Home.css */
 .home {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -11,17 +12,19 @@
   
   .intro {
     display: flex;
+    flex-direction: row;
     max-width: 1200px;
     width: 100%;
     padding: 20px;
   }
   
   .photo {
-    flex: 1;
+    width: 25vw; 
+    height: 25vw; 
     background-image: url('/public/images/img.jpg');
     background-size: cover;
     background-position: center;
-    border-radius: 100%;
+    border-radius: 50%;
     margin-right: 40px;
     border: 1px solid black;
   }
@@ -40,7 +43,6 @@
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 20px;
-    max-width: 512px;
   }
 
   .bold_text {
@@ -99,4 +101,29 @@
   }
 
   
-  
+  @media (max-width: 768px) {
+    .intro {
+        flex-direction: column; /* Stack photo and text vertically */
+        align-items: center; /* Center content */
+    }
+
+    .photo {
+        width: 30vw; 
+        height: 30vw;
+        margin-right: 0; /* Remove margin when stacked */
+        margin-bottom: 20px; /* Add space between photo and text */
+    }
+
+    .intro-text h1 {
+        font-size: 36px; /* Smaller font size for headings */
+    }
+
+    .intro-text p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+    }
+
+    .resume_btn, .projects_btn, .contact_btn {
+        padding: 30px 10px;
+        font-size: 16px; 
+    }
+}
